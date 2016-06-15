@@ -1,4 +1,6 @@
 
+
+
 int rayon = 10;
 int cadrillage = 40;
 
@@ -13,9 +15,13 @@ ArrayList<cible> lescibles =  new ArrayList<cible>();
 
 
 void setup(){
+  
+  orientation(LANDSCAPE);
+    size(displayWidth, displayHeight);
+    /*
 size(800,600); //taille de la fenetre
 smooth(); // raffraichir la fenetre
-
+*/
 position= new PVector(0,0);
 
 // cree les cibles
